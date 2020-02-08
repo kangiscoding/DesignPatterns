@@ -3,7 +3,7 @@ package com.yaokang.patterns.strategy;
 public class MallardDuck extends Duck {
 
     public MallardDuck() {
-        quackBehavior = new Quack();
+        quackBehavior = new QuackVoice();
         flyBehavior = new FlyWithThings();
     }
 
